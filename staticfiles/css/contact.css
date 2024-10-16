@@ -1,0 +1,96 @@
+/* Contact Section */
+.contact-section {
+    padding: 50px 0;
+    background: linear-gradient(135deg, #f0f0f0, #ffffff);
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.contact-form, .contact-info {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.contact-form h2, .contact-info h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact-form .form-control {
+    border: 2px solid #ddd;
+    padding: 12px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.contact-form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+.contact-form button {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: linear-gradient(135deg, #0056b3, #003c82);
+    transform: translateY(-3px);
+}
+
+/* Contact Information */
+.contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.contact-info p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info p a:hover {
+    text-decoration: underline;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+/* Custom Icon Styling */
+.contact-info p::before {
+    content: "\f0e0"; /* FontAwesome envelope icon */
+    font-family: 'FontAwesome';
+    color: #007bff;
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact-form, .contact-info {
+        margin-bottom: 30px;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+}
